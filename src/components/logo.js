@@ -2,12 +2,12 @@ import Image from "next/image";
 
 const Logo = () => {
   return (
-    <div className="relative w-[100px] h-[100px] sm:w-[120px] sm:h-[120px] md:w-[150px] md:h-[150px] lg:w-[180px] lg:h-[180px]">
+    <div className="relative w-[64px] h-[64px] sm:w-[80px] sm:h-[80px] md:w-[90px] md:h-[90px]">
       <Image
-        src="/logo-casa-din-deal.svg"
+        src="/logo.png"
         alt="Casa din Deal"
         layout="fill"
-        objectFit="contain" // Keeps the aspect ratio intact
+        objectFit="contain"
         priority
       />
     </div>
