@@ -1,0 +1,24 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "../node_modules/.prisma/client"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model Review {
+  id      Int    @id @default(autoincrement())
+  name    String
+  rating  Float
+  message String
+}
+
+model Breed {
+  id          Int    @id @default(autoincrement())
+  slug        String @unique
+  name        String
+  description String
+  image       String
+}

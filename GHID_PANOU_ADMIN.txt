@@ -1,0 +1,46 @@
+
+GHID DE UTILIZARE – PANOUL DE ADMINISTRARE „Casa din Deal”
+===========================================================
+
+📍 ACCESAREA PANOUlUI
+----------------------
+1. Deschide un browser (Google Chrome, Firefox, etc.)
+2. Tastează în bara de adrese: http://localhost:3000/admin
+   (sau linkul către site, dacă este online)
+3. Introdu următoarele date de autentificare:
+
+   Utilizator: admin
+   Parolă: admin123
+
+📋 CE POT FACE DIN PANOU?
+---------------------------
+
+După autentificare, vei vedea două secțiuni principale:
+
+1. 🐔 RASE DE GĂINI
+   - Afișează toate rasele disponibile.
+   - Poți adăuga o rasă nouă:
+     > Completează numele, descrierea, un „slug” (nume scurt fără spații) și încarcă o poză.
+   - Poți șterge o rasă apăsând pe butonul „Șterge”.
+   - Poți modifica informațiile și apăsa din nou „Salvează rasa” pentru a actualiza.
+
+2. ⭐ RECENZII
+   - Afișează recenziile clienților.
+   - Poți adăuga o recenzie scrisă de mână, completând numele, ratingul (de ex: 5) și mesajul.
+   - Poți șterge recenzii apăsând „Șterge”.
+
+📤 ÎNCĂRCAREA IMAGINILOR (la rase)
+----------------------------------
+Când adaugi o rasă, ai un câmp pentru imagine:
+- Alege o poză din calculator.
+- Aceasta va fi salvată automat în site.
+
+📌 SFATURI
+------------
+- Scrie „slug”-ul fără spații sau caractere speciale (ex: „gaina-alba”).
+- Imaginea rasei se va redenumi automat după slug și va apărea pe site.
+- Dacă vrei să ieși, poți închide fereastra – datele se păstrează.
+
+❓ AI NEVOIE DE AJUTOR?
+-----------------------
+Contactează persoana responsabilă cu site-ul pentru detalii suplimentare.
